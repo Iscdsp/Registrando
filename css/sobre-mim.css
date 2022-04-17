@@ -1,0 +1,65 @@
+
+body{
+    width: 100%;
+    max-width: 1920px;
+    overflow-x: hidden;
+}
+.nav-menu a{
+    padding-top: 30px;
+    padding-bottom: 37.5px;
+}
+div.rd-final img{
+    filter: invert(1);
+    width: 25px;
+    height: 25px;
+    margin: 0 5px 0 5px;
+} 
+.nav-footer{
+    width: 96%
+}
+
+.cabecalho{
+    width: 90%;
+    margin: 0 100px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rd-final-SM{
+
+}
+.rd-final-SM img{
+    filter: invert(1);
+    width: 25px;
+    height: 25px;
+    margin: 0 5px 0 5px;
+}
+.container-sobre{
+    display:flex;
+    flex-direction:row;
+    max-width: 1920px;
+    width: 100%;
+    max-height: 620px;
+    height: 100%;
+}
+article.sobre-mim p{
+    margin: 0 50px;
+
+
+}
+
+article.container-txt-embaixo-foto{
+    display: flex;
+    flex-direction: column;
+    width: 1920px;
+}
+p.txt-embaixo-foto{
+    margin: 20px 100px;
+}
+.ft-reinaldo{
+    margin-left: 100px;
+    display: flex;
+    width: 500px;
+    height: 456px;
+}
+
