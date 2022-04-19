@@ -23,15 +23,25 @@
     height: 750px;
 }
 .container-form{
+    display: inline;
+    position: relative;
+    display: flex;
+    font-size: 16px;
     border: 2px solid #ffffff;
-    padding: 3%;
+    padding: 2% 3%;
     max-width: 600px;
-
     border-radius: 0%;
-    transition: 0.5s;
+    transition: all 0.5s;
 }
+
+form label:hover{
+    text-decoration: underline;
+    transform: scale(1.1, 1.1);
+
+}
+
 .container-form:hover{
-    border: 2px solid #252525;
+    border: 2px solid #ffffff;
     border-radius: 3%;
 }
 .container-form legend{
@@ -49,13 +59,18 @@
 }
 
 form input{
+    border-radius: 10px;
     color: #ffffff;
     margin-left: 1em;
     margin-right: 1em;
-    background-color: transparent;
-    border: 2px solid  #ffffff;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 2px solid  #c7a356;
     height: 1.5em;
     opacity: 0.8;
+    transition: all 0.2s ease-in-out;
+}
+form input:hover{
+    border: 2px solid #ffffff;
 }
 form input::placeholder{
     font-size: 0.9em;
@@ -66,7 +81,25 @@ textarea{
         margin-top: 1em;
         color: #ffffff;
 
-        background-color: transparent;
-        border: 2px solid  #ffffff;
+        background-color: rgba(255, 255, 255, 0.2);
+        border: 2px solid  #c4ae7e;
         opacity: 0.8;
+        border-radius: 10px;
     }
+    textarea:hover{
+        border: 2px solid #ffffff;
+    }
+.btn{
+    margin-top: 3%;
+    margin-left: 84%;
+    margin-right: -10px;
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    transition: all 0.1s ease-in;
+    border: 2px solid #c4ae7e;
+}
+.btn:hover{
+    border: 3px solid #ffffff;
+
+}

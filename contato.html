@@ -52,16 +52,17 @@
             <img src="./img/Reinaldo-contato.jpg" alt="">
         
             <fieldset class="container-form"><legend>Contato</legend>
-                <form action="" method="post">
-                    <p><label for="iNome">Nome:</label><input type="text" name="nNome" id="iNome" size="70" maxlength="50" placeholder="Nomezinho aqui"></p>
-                    <p><label for="iEmail">E-mail:</label><input type="email" name="nEmail" id="iEmail" size= "30" placeholder="e-mailzinho aqui"></p>
-                    <p><label for="iTel">Telefone:</label><input type="tel" name="nTel" id="iTel" placeholder="(DDD)+(numerozinho aqui)"></p>
-                    <p><label for="iData">Data do Evento:</label><input type="date" name="nData" id="iData" placeholder="Data do eventão!"></p>
-                    <p>
-                        <label for="iObs">Observação:<br>
+                <form action="./processo.php" method="post">
+                    <label for="iNome">Nome:</label><input type="text" name="nNome" id="iNome" size="70" maxlength="50" placeholder="Nomezinho aqui">
+                    <label for="iEmail">E-mail:</label><input type="email" name="nEmail" id="iEmail" size= "70" placeholder="e-mailzinho aqui">
+                    <label for="iTel">Telefone:</label><input type="tel" name="nTel" id="iTel" placeholder="(DDD)+(numerozinho aqui)">
+                    <label for="iData">Data do Evento:</label><input type="date" name="nData" id="iData" placeholder="Data do eventão!">
+                    
+                        <label for="iObs">Observação:<br></label>
                             <textarea name="nObs" id="iObs" cols="80" rows="20" required></textarea>
-                        </label></p>
-                    </p>
+                        
+                    
+                    <input type="submit" value="Enviar" class="btn">   
                 </form>
             </div>
         </div>

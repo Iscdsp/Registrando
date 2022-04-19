@@ -4,7 +4,7 @@
     padding-bottom: 38px;
 }
 
-.container-foto-galeria{
+/* .container-foto-galeria{
     margin: 2% 4%;
     display: flex;
     flex-wrap: wrap;
@@ -12,14 +12,17 @@
 }
 .img-box{
     position: relative;
+    overflow: hidden;
 }
 .container-foto-galeria img{
-    filter: brightness(.3);
+    transform: scale(1.5,1.5);
+    filter: brightness(.6) grayscale(1);
     transition: 0.5s;
 
 }
 .container-foto-galeria img:hover{
     filter: brightness(1);
+    transform: scale(1,1);
 }
 .container-foto-galeria a{
     color: aliceblue;
@@ -51,4 +54,4 @@
     margin: -1% 4% -2%;
     justify-content: space-between;
     align-items: center;
-}
+} */

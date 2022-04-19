@@ -61,8 +61,11 @@ width: 100%;
     transition: 0.2s;
 }
 .item-menu a:hover{
-    border-top: 2px solid #888686;
-    border-bottom: 1px solid #8a8787;
+    font-weight:800;
+    color: #c4ae7e;
+/*     filter: drop-shadow(0.5px 0.5px 1px #ffffff); */
+    border-top: 2px solid #c4ae7e;
+    border-bottom: 1px solid #c4ae7e;
 }
 
 /*     carrousel    */
