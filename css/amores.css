@@ -1,17 +1,10 @@
 .hrAmores{
-    display: block;
+
     width: 1920px;
-    height: 1px;
-    background-color: white;
-    margin: 0.5% 0;
+    margin: 0.4% 0;
     padding: 0%;
 }
-hr{
-    display: block;
-    width: 100%;
-    height: 1px;
-    background-color:#ffffff;
-}
+
 div.nv-h{
     display: block;
     margin-top: 100px;
@@ -24,14 +17,9 @@ div.nv-h{
 }
 ul.nav-menu a{
     text-decoration: none;
-    padding: 30px 20px 37px;
+    padding: 30px 15px 37px;
     color: rgb(255, 255, 255);
     margin: 5px 10px;
-}
-body.body-amor .nav-amr{
-    margin-top: 5px;
-    display: flex;
-
 }
 
 div.rd-final{
@@ -56,7 +44,7 @@ body.body-amor{
     margin-top: 70px;
     display: block;
     line-height: 2;
-    padding: 0 100px 0 100px;
+    padding: 0 5% 0 4%;
     height:350px;
 }
 .especializacao-01{
@@ -92,6 +80,7 @@ body.body-amor{
     transition: 0.2s;
 }
 .item-menu1 a:hover{
-    border-top: 2px solid #888686;
-    border-bottom: 1px solid #8a8787;
+    color:#c4ae7e;
+    border-top: 2px solid #c4ae7e;
+    border-bottom: 1px solid #c4ae7e;
 }

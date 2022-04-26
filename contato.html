@@ -1,41 +1,51 @@
 <!DOCTYPE html>
 <html class= "html" lang="pt-br">
-    <head>
-        <meta name="author" content="Caio Prado">
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Reinaldo Fotografias</title>
-        <link rel="stylesheet" href="./css/style.css" type="text/css">
-        <link rel="stylesheet" href="./css/contato.css">
-    </head>
-    <body class="body">
-        <!--cabeçalho menu navegação e logo-->
-        <header class="header">
-            <div class="logo-index lg-amr">
-                <img src="./img/logo-reinaldo.svg" alt="REINALDO FOTOGRAFIAS">
-            </div>
-            <nav>
-                <ul class="nav-menu">
-                    <li class="item-menu lt-space-home-sobre">
-                        <a href="./index.html">Home</a>
-                    </li>
-                    <li class="item-menu lt-space-home-sobre">
-                        <a href="./Sobre_mim.html">Sobre</a>
-                    </li>
-                    <li class="item-menu">
-                        <a href="./Amores.html">Amores</a>
-                    </li>
-                    <li class="item-menu">
-                        <a href="./Galeria.html">Galeria</a>
-                    </li>
-                    <li class="item-menu">
-                        <a href="./contato.html">Contato</a>
-                    </li>
-                    
-                </ul>
-            </nav>
-        </header>
+<head>
+    <meta name="author" content="Caio Prado">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reinaldo Fotografias</title>
+    <link rel="stylesheet" href="./css/contato.css">
+    <link rel="stylesheet" href="./css/contato_820.css">
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="./css/style_1400.css">
+    <link rel="stylesheet" href="./css/index_360.css">
+    <link rel="stylesheet" href="#">
+</head>
+<body class="body">
+    <!--cabeçalho menu navegação e logo-->
+        
+    <!-- <div  id="nav_menu" > -->
+      <img src="./img/menu-img.png" class="menu_item" alt="">
+  </div>
+    <header class="header ">
+        <div class="logo-index lg-amr">
+            <img src="./img/lg_index.png" alt="REINALDO FOTOGRAFIAS">
+        </div>
+        
+        <nav >
+            <ul id="menu"  class="nav-menu hide">
+                <li class="item-menu lt-space-home-sobre">
+                    <a href="./index.html">Home</a>
+                </li>
+                <li class="item-menu lt-space-home-sobre">
+                    <a href="./Sobre_mim.html">Sobre</a>
+                </li>
+                <li class="item-menu">
+                    <a href="./Amores.html">Amores</a>
+                </li>
+                <li class="item-menu">
+                    <a href="./Galeria.html">Galeria</a>
+                </li>
+                <li class="item-menu">
+                    <a href="./contato.html">Contato</a>
+                </li>
+                
+            </ul>
+        </nav>
+    </header>
         
         <hr>
 
@@ -48,28 +58,31 @@
             </div>
         </div>
         <div class="container-contato">
-            
-            <img src="./img/Reinaldo-contato.jpg" alt="">
-        
+
+                <video src="./img/regis.mp4.mp4" autoplay loop></video>  
             <fieldset class="container-form"><legend>Contato</legend>
                 <form action="./processo.php" method="post">
-                    <label for="iNome">Nome:</label><input type="text" name="nNome" id="iNome" size="70" maxlength="50" placeholder="Nomezinho aqui">
-                    <label for="iEmail">E-mail:</label><input type="email" name="nEmail" id="iEmail" size= "70" placeholder="e-mailzinho aqui">
-                    <label for="iTel">Telefone:</label><input type="tel" name="nTel" id="iTel" placeholder="(DDD)+(numerozinho aqui)">
-                    <label for="iData">Data do Evento:</label><input type="date" name="nData" id="iData" placeholder="Data do eventão!">
+                    <label for="iNome">Nome:</label><input type="text" name="nNome" id="iNome" size="70" maxlength="50" placeholder="Nomezinho aqui" required>
+                    <label for="iEmail">E-mail:</label><input type="email" name="nEmail" id="iEmail" size= "70" placeholder="e-mailzinho aqui" required>
+                    <label for="iTel">Telefone:</label><input type="tel" name="nTel" id="iTel" placeholder="(DDD)+(numerozinho aqui)" required>
+                    <label for="iData">Data do Evento:</label><input type="date" name="nData" id="iData" placeholder="Data do eventão!" required>
                     
                         <label for="iObs">Observação:<br></label>
-                            <textarea name="nObs" id="iObs" cols="80" rows="20" required></textarea>
+                            <textarea name="nObs" id="iObs" cols="74" rows="10" required placeholder="  Aqui Preciso que você diga:
+                                                                                                        tipo do evento:
+                                                                                                        quantas pessoas(se houver como):
+                                                                                                      "></textarea>
                         
-                    
-                    <input type="submit" value="Enviar" class="btn">   
+                    <div class="main">
+                        <input type="submit" value="Enviar" class="button" >  
+                    </div>   
                 </form>
             </div>
         </div>
-
+        <hr>
         <div class="nav-footer">
             <nav>
-                <ul class="nav-menu">
+                <ul class="nav-menu esc">
                     <li class="item-menu lt-space-home-sobre">
                         <a href="./index.html">Home</a>
                     </li>
@@ -88,7 +101,7 @@
 
                 </ul>
             </nav>
-            <div class="lg-redes-sociais rd-final">
+            <div class="lg-redes-sociais rd-final ">
                 <a href="https://vsco.co/rcampos95/gallery" target="_blank"><img src="./img/vsco_logo_icon_144750.png" alt=""></a>
                 <a href="https://www.flickr.com/people/190029616@N05/" target="_blank"><img src="./img/flickrroundlogo_80926.png" alt=""></a>
                 <a href="https://www.instagram.com/rcampos95/" target="_blank"><img src="./img/instagram_black_logo_icon_147122.png" alt=""></a>
@@ -100,5 +113,7 @@
                 <p>Densolvido por Caio Prado</p>
             </div>
         </footer>
+        <script src="./js/main.js"></script>
+    <script src="./js/main-360.js"></script>
     </body>
 </html>
