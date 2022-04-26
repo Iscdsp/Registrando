@@ -1,0 +1,206 @@
+@media  screen and (max-width:1400px) {
+    body{
+        max-width: 1400px;
+        overflow-x: hidden;
+    }
+    .hrAmores{
+
+            width: 1400px;
+            margin: 0.4% 0;
+            padding: 0%;
+        }
+        
+        div.nv-h{
+            display: block;
+            margin-top: 100px;
+        
+        }
+        .nav-footer{
+            height: 74px;
+            margin-bottom: 8px;
+            margin-top: -15px;
+        }
+        ul.nav-menu a{
+            text-decoration: none;
+            padding: 30px 15px 35px;
+            color: rgb(255, 255, 255);
+            margin: 5px 10px;
+        }
+        
+        div.rd-final{
+            padding-right: 3%;
+        }
+        
+        div.rd-final img{
+            filter: invert(1);
+            width: 25px;
+            height: 25px;
+            margin: 0 5px 0 5px;
+        } 
+        body.body-amor{
+            margin-top: 10px;
+            display: flex;
+            flex-direction: column;
+            max-width: 1400px;
+            overflow-x: hidden;
+        }
+        .especializacao{
+            
+
+            display: block;
+            line-height: 2;
+            padding: 0 5% 0 4%;
+            height:350px;
+
+        }
+        .especializacao-01{
+            background-image: url(../img/img-casa671-amores.jpg);
+            background-position: top;
+            background-repeat: no-repeat;
+            background-size: 1400px 850px;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 450px 0;
+
+
+        }
+        .especializacao-02{
+        
+            background-image: url(../img/img-sino-amores.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 1400px 850px;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 450px 0;
+        }
+        .especializacao-03{
+            background-image: url(../img/img-senhora-amores.jpg);
+            background-position: bottom center;
+            background-repeat: no-repeat;
+            background-size: 1400px 850px;
+            background-attachment: fixed;
+
+
+        }
+        .item-menu1 a{
+            text-decoration: none;
+            padding: 30px 20px 37px;
+            color: rgb(255, 255, 255);
+            margin: 10px 10px;
+            transition: 0.2s;
+        }
+        .item-menu1 a:hover{
+            color:#c4ae7e;
+            border-top: 2px solid #c4ae7e;
+            border-bottom: 1px solid #c4ae7e;
+        }
+}
+
+@media  screen and (max-width:820px) {
+
+    .hrAmores{
+            width: 820px;
+            margin: 2.1% 0;
+            padding: 0%;
+        } 
+        
+       div.nv-h{
+            display: block;
+            margin-top: 100px;
+         
+        }
+         .nav-footer{
+            height: 74px;
+            margin-bottom: 5px;
+            margin-top: 9px;
+        }
+        ul.nav-menu a{
+            /* font-family: 'LouisGeorge', sans-serif;
+            text-decoration: none;
+            
+            color: rgb(255, 255, 255);*/
+            padding: 30px 31px 30px 30px;
+            margin: 0 0 0 0; 
+            text-align: center;
+            line-height: 0;            
+        }
+        
+        div.rd-final{
+            padding-right: 3%;
+        }
+        
+        div.rd-final img{
+            filter: invert(1);
+            width: 25px;
+            height: 25px;
+            margin: 0 5px 0 5px;
+        } 
+        body.body-amor{
+            margin-top: 10px;
+            display: flex;
+            flex-direction: column;
+            max-width: 1400px;
+            overflow-x: hidden;
+            max-height: 800px;
+        }
+        .especializacao{
+            
+
+            display: block;
+            line-height: 2;
+            padding: 0 5% 0 4%;
+            height:350px;
+
+        }
+        .especializacao-01{
+            background-image: url(../img/img-casa671-amores.jpg);
+            background-position: top;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 450px 0;
+
+
+        }
+        .especializacao-02{
+        
+            background-image: url(../img/img-sino-amores.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 450px 0;
+        }
+        .especializacao-03{
+            background-image: url(../img/img-senhora-amores.jpg);
+            background-position: bottom center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+
+
+        }
+}
+
+@media  screen and (max-width:360px){
+    .especializacao{
+            
+
+        display: block;
+        line-height: 2;
+        padding: 0 5% 5% 4%;
+        height:350px;
+        margin-top: 0;
+
+    }
+
+    div.rd-final img{
+        margin:3px 20px 3px 20px;
+        width: 35px;
+        height: 35px;
+    }
+}
+

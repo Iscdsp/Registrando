@@ -1,0 +1,350 @@
+@charset "UTF-8";
+
+.container-pulsar{
+    max-width: 1920px;
+    margin: 0 auto 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.mainImg a{
+    display: block;
+    width: 460px;
+    height: 380px;
+}
+
+.img-pulsar01{
+    background-image: url(/img/Pulsar/ft-01-thumb.png);
+    background-size: cover;
+    background-position: 10% 50%;
+    width: 460px;
+    height: 380px;
+    transition: 0.2s;
+}
+
+.img-pulsar01:hover{
+    transform: scale(1.01);
+    }
+.img-pulsar02{
+    background-image: url(/img/Pulsar/ft-02-thumb.png);
+    background-size: cover;
+    background-position: 10% 50%;
+    width: 450px;
+    height: 380px;
+    
+}
+.img-pulsar02:hover{
+    transform: scale(1.01);
+    }
+.img-pulsar03{
+    background-image: url(/img/Pulsar/ft-03-thumb.jpg);
+    background-size: cover;
+    background-position: 10% 50%;
+    width: 450px;
+    height: 380px;
+}
+.img-pulsar03:hover{
+    transform: scale(1.01);
+    }
+.img-pulsar04{
+    background-image: url(/img/Pulsar/ft-04-thumb.jpg);
+    background-size: cover;
+    background-position: 10% 50%;
+    width: 450px;
+    height: 380px;
+}
+.img-pulsar04:hover{
+    transform: scale(1.01);
+    }
+.img-pulsar05{
+    background-image: url(/img/Pulsar/ft-05-thumb.jpg);
+    background-size: cover;
+    background-position: 10% 50%;
+    width: 460px;
+    height: 380px;
+}
+.img-pulsar05:hover{
+    transform: scale(1.01);
+    }
+.img-pulsar06{
+    background-image: url(/img/Pulsar/ft-06-thumb.jpg);
+    background-size: cover;
+    background-position: 10% 50%;
+    width: 450px;
+    height: 380px;
+}
+.img-pulsar06:hover{
+    transform: scale(1.01);
+    }
+.img-pulsar07{
+    background-image: url(/img/Pulsar/ft-07-thumb.jpg);
+    background-size: cover;
+    background-position: 10% 50%;
+    width: 450px;
+    height: 380px;
+}
+.img-pulsar07:hover{
+    transform: scale(1.01);
+    }
+.img-pulsar08{
+    background-image: url(/img/Pulsar/ft-08-thumb.jpg);
+    background-size: cover;
+    background-position: 10% 50%;
+    width: 450px;
+    height: 380px;
+}
+.img-pulsar08:hover{
+    transform: scale(1.01);
+    }
+.img-pulsar09{
+    background-image: url(/img/Pulsar/ft-09-thumb.jpg);
+    background-size: cover;
+    background-position: 10% 50%;
+    width: 460px;
+    height: 380px;
+}
+.img-pulsar09:hover{
+    transform: scale(1.01);
+    }
+.img-pulsar10{
+    background-image: url(/img/Pulsar/ft-10-thumb.jpg);
+    background-size: cover;
+    background-position: 10% 50%;
+    width: 450px;
+    height: 380px;
+}
+.img-pulsar10:hover{
+    transform: scale(1.01);
+    }
+.img-pulsar11{
+    background-image: url(/img/Pulsar/ft-11-thumb.jpg);
+    background-size: cover;
+    background-position: 10% 50%;
+    width: 450px;
+    height: 380px;
+}
+.img-pulsar11:hover{
+    transform: scale(1.01);
+    }
+.img-pulsar12{
+    background-image: url(/img/Pulsar/ft-12-thumb.jpg);
+    background-size: cover;
+    background-position: 10% 50%;
+    width: 450px;
+    height: 380px;
+}
+.img-pulsar12:hover{
+    transform: scale(1.01);
+    }
+.img-pulsar13{
+    background-image: url(/img/Pulsar/ft-13-thumb.jpg);
+    background-size: cover;
+    background-position: 10% 50%;
+    width: 460px;
+    height: 380px;
+}
+.img-pulsar13:hover{
+    transform: scale(1.01);
+    }
+.img-pulsar14{
+    background-image: url(/img/Pulsar/ft-14-thumb.jpg);
+    background-size: cover;
+    background-position: 10% 50%;
+    width: 450px;
+    height: 380px;
+}
+.img-pulsar14:hover{
+    transform: scale(1.01);
+    }
+.img-pulsar15{
+    background-image: url(/img/Pulsar/ft-15-thumb.jpg);
+    background-size: cover;
+    background-position: 10% 50%;
+    width: 450px;
+    height: 380px;
+}
+.img-pulsar15:hover{
+    transform: scale(1.01);
+    }
+.img-pulsar16{
+    background-image: url(/img/Pulsar/ft-16-thumb.jpg);
+    background-size: cover;
+    background-position: 10% 50%;
+    width: 450px;
+    height: 380px;
+}
+.img-pulsar16:hover{
+    transform: scale(1.01);
+    }
+.img-pulsar17{
+    background-image: url(/img/Pulsar/ft-17-thumb.jpg);
+    background-size: cover;
+    background-position: 10% 50%;
+    width: 460px;
+    height: 380px;
+}
+.img-pulsar17:hover{
+    transform: scale(1.01);
+    }
+.img-pulsar18{
+    background-image: url(/img/Pulsar/ft-18-thumb.jpg);
+    background-size: cover;
+    background-position: 10% 50%;
+    width: 450px;
+    height: 380px;
+}
+.img-pulsar18:hover{
+    transform: scale(1.01);
+    }
+.img-pulsar19{
+    background-image: url(/img/Pulsar/ft-19-thumb.jpg);
+    background-size: cover;
+    background-position: 10% 50%;
+    width: 450px;
+    height: 380px;
+}
+.img-pulsar19:hover{
+    transform: scale(1.01);
+    }
+.img-pulsar20{
+    background-image: url(/img/Pulsar/ft-20-thumb.jpg);
+    background-size: cover;
+    background-position: 10% 50%;
+    width: 450px;
+    height: 380px;
+}
+.img-pulsar20:hover{
+    transform: scale(1.01);
+    }
+
+    @media  screen and (max-width:820px) {
+
+.container-pulsar{
+    max-width: 1920px;
+    margin: 0 auto 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.main a{
+    display: block;
+    width: 460px;
+    height: 380px;
+}
+
+.mainImg{
+    margin: 0 auto;
+    background-size: cover;
+    background-position: 10% 50%;
+    width: 720px;
+    height: 380px;
+    transition: 0.2s;
+
+}
+
+.mainImg:hover{
+    transform: scale(1.01);
+}
+
+.img-pulsar01{
+    background-image: url(/img/Pulsar/ft-01-thumb.png);
+}
+.img-pulsar02{
+    background-image: url(/img/Pulsar/ft-02-thumb.png);
+
+}
+
+.img-pulsar03{
+    background-image: url(/img/Pulsar/ft-03-thumb.jpg);
+
+}
+
+.img-pulsar04{
+    background-image: url(/img/Pulsar/ft-04-thumb.jpg);
+
+}
+
+.img-pulsar05{
+    background-image: url(/img/Pulsar/ft-05-thumb.jpg);
+}
+
+.img-pulsar06{
+    background-image: url(/img/Pulsar/ft-06-thumb.jpg);
+}
+
+.img-pulsar07{
+    background-image: url(/img/Pulsar/ft-07-thumb.jpg);
+}
+
+.img-pulsar08{
+    background-image: url(/img/Pulsar/ft-08-thumb.jpg);
+}
+
+.img-pulsar09{
+    background-image: url(/img/Pulsar/ft-09-thumb.jpg);
+}
+
+.img-pulsar10{
+    background-image: url(/img/Pulsar/ft-10-thumb.jpg);
+}
+
+.img-pulsar11{
+    background-image: url(/img/Pulsar/ft-11-thumb.jpg);
+}
+.img-pulsar12{
+    background-image: url(/img/Pulsar/ft-12-thumb.jpg);
+}
+.img-pulsar13{
+    background-image: url(/img/Pulsar/ft-13-thumb.jpg);
+}
+
+.img-pulsar14{
+    background-image: url(/img/Pulsar/ft-14-thumb.jpg);
+}
+.img-pulsar15{
+    background-image: url(/img/Pulsar/ft-15-thumb.jpg);
+}
+
+.img-pulsar16{
+    background-image: url(/img/Pulsar/ft-16-thumb.jpg);
+}
+
+.img-pulsar17{
+    background-image: url(/img/Pulsar/ft-17-thumb.jpg);
+}
+
+.img-pulsar18{
+    background-image: url(/img/Pulsar/ft-18-thumb.jpg);
+}
+
+.img-pulsar19{
+    background-image: url(/img/Pulsar/ft-19-thumb.jpg);
+}
+
+.img-pulsar20{
+    background-image: url(/img/Pulsar/ft-20-thumb.jpg);
+}
+}
+
+@media screen and (max-width:360px) {
+    .mainImg{
+        margin: 0 auto;
+        background-size: cover;
+        background-position: 10% 50%;
+        width: 360px;
+        height: 200px;
+        transition: 0.2s;
+    
+    }
+    .rd-final{
+        margin: 30px auto;
+    }
+    div.rd-final img{
+        margin:3px 20px 3px 20px;
+        width: 40px;
+        height: 40px;
+    }
+    .txt-galeria{
+        flex-direction: column;
+    }
+}

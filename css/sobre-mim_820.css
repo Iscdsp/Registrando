@@ -1,0 +1,114 @@
+@media screen and (max-width:820px) {
+    body{max-width: 820px;
+    }
+
+    div.logo-index img{
+        margin-left: -190%;
+    }
+    .container-sobre{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-width: 820px;
+        margin: 0 auto;
+    }
+}
+.container-txt-embaixo-foto{
+    margin: 0 2% 0 20%
+}
+    .sobre-mim{
+        margin: 0 4% 2% 5%;
+    }
+    .ft-reinaldo{
+        margin: 5% auto;        
+    }
+    .ft-reinaldo img{
+        margin: 0 auto;
+        width: 650px;
+    }
+
+    .cabecalho{
+        display:flex;
+        justify-content: none;  
+        padding-right: 10%;
+    }   
+    .nav-footer{
+        margin-left: -5%;
+        display: flex;
+        justify-content: space-between;
+  
+}
+
+@media screen and (max-width:360px){
+    body{
+        margin: 0;
+        padding: 0;
+        font-size: 0.9em;
+        display: flex;
+        flex-direction: column;
+        max-width: 360px;
+    }
+    header.header{
+        display: flex;
+            
+    }
+    .lg-amr img{
+        display: block;
+        margin: 8px -33px 0 2px;
+    }
+    .rd-final-SM{
+        display: none;
+    }
+    .cabecalho h1{
+        margin: 10% auto;
+        padding: 0;    
+    }
+    .container-sobre{
+        padding: 0;
+        margin: 0;
+        max-width: 360px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .ft-reinaldo{
+        width: 330px;
+        height: 330px;
+        margin: 10px auto 20px;
+    }
+    .ft-reinaldo img{
+        width: 330px;
+        height: 330px;
+        margin: 0 auto;
+    }
+
+    .sobre-mim{
+        margin: 0 15px;
+        padding: 0;
+    }
+    article .txt-lado-foto{
+        margin: 0 0px;
+        padding: 0;
+    }
+    .container-txt-embaixo-foto{
+        margin: auto 0px;
+        padding: 0;
+    }
+    p.txt-embaixo-foto{
+        margin: auto 35px;
+        padding: 0;
+    }
+    .nav-footer{
+        display: flex;
+        align-items: center;
+        margin-left:2%;
+        text-align: center;
+    }
+
+div.rd-final img{
+    width: 35px;
+    height: 35px;
+    margin:3px 20px 3px 20px;
+}
+}
