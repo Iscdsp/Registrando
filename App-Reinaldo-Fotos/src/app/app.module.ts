@@ -1,6 +1,9 @@
+import { TemplateFormContactPageModule } from './template-form-contact-page/template-form-contact-page.module';
+import { FormContactPageModule } from './components/pages/contact-page/form-contact-page/form-contact-page.module';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
+import { FormsModule } from '@angular/forms';
 
 import { SlickCarouselModule } from 'ngx-slick-carousel';
 import { AppComponent } from './app.component';
@@ -31,7 +34,6 @@ import { TitleGalleryPageComponent } from './components/pages/gallery-page/title
 import { ImageCardsGalleryPageComponent } from './components/pages/gallery-page/image-cards-gallery-page/image-cards-gallery-page.component';
 import { BottomTextComponent } from './components/pages/gallery-page/bottom-text/bottom-text.component';
 import { TitleContactPageComponent } from './components/pages/contact-page/title-contact-page/title-contact-page.component';
-import { FormContactPageComponent } from './components/pages/contact-page/form-contact-page/form-contact-page.component';
 
 @NgModule({
   declarations: [
@@ -63,9 +65,14 @@ import { FormContactPageComponent } from './components/pages/contact-page/form-c
     ImageCardsGalleryPageComponent,
     BottomTextComponent,
     TitleContactPageComponent,
-    FormContactPageComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, SlickCarouselModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    SlickCarouselModule,
+    FormsModule,
+    TemplateFormContactPageModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

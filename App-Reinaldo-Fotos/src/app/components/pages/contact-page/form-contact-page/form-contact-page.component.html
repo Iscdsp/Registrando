@@ -1,9 +1,16 @@
 <div class="container-contato">
   <fieldset class="container-form">
     <legend class="font-nav">Contato</legend>
-    <form action="./processo.php" method="post" class="form-control">
+    <form
+      #f="ngForm"
+      (ngSubmit)="onSubmit('#f')"
+      action="./processo.php"
+      method="post"
+      class="form-control"
+    >
       <label for="iNome">Nome:</label
       ><input
+        ngModel
         class="input-form"
         type="text"
         name="nNome"
@@ -15,6 +22,7 @@
       />
       <label for="iEmail">E-mail:</label
       ><input
+        ngModel
         class="input-form"
         type="email"
         name="nEmail"
@@ -25,6 +33,7 @@
       />
       <label for="iTel">Telefone:</label
       ><input
+        ngModel
         class="input-form"
         type="tel"
         name="nTel"
@@ -34,6 +43,7 @@
       />
       <label for="iData">Data do Evento:</label
       ><input
+        ngModel
         class="input-form"
         type="date"
         name="nData"
@@ -44,6 +54,7 @@
 
       <label for="iObs">Observação:<br /></label>
       <textarea
+        ngModel
         name="nObs"
         id="iObs"
         cols="74"
@@ -53,7 +64,7 @@
       ></textarea>
 
       <div class="main">
-        <input type="submit" value="Enviar" class="button" />
+        <button type="submit" class="button">Enviar</button>
       </div>
     </form>
   </fieldset>
